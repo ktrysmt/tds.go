@@ -1,6 +1,4 @@
-# Golang Thin DDD Skeleton
-
-## Build
+(T)hin (D)DD (S)keleton
 
 ```
 go mod tidy
