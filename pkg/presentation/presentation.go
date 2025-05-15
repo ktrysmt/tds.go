@@ -3,7 +3,7 @@ package presentation
 import (
 	"encoding/json"
 	"net/http"
-	"tds.go/internal/usecase"
+	"tds.go/pkg/usecase"
 )
 
 type UserHandler struct {

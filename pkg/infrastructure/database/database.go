@@ -7,7 +7,7 @@ import (
 
 	_ "github.com/lib/pq"
 	"tds.go/config"
-	"tds.go/internal/infrastructure/logger"
+	"tds.go/pkg/infrastructure/logger"
 )
 
 func NewPostgresDB(cfg *config.Config) *sql.DB {

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"tds.go/internal/infrastructure/logger"
+	"tds.go/pkg/infrastructure/logger"
 )
 
 func Logger(next http.Handler) http.Handler {

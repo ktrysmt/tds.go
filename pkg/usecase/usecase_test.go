@@ -1,8 +1,8 @@
 package usecase_test
 
 import (
-	"tds.go/internal/domain"
-	"tds.go/internal/usecase"
+	"tds.go/pkg/domain"
+	"tds.go/pkg/usecase"
 	"testing"
 )
 

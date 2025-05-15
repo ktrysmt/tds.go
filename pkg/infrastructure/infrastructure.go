@@ -2,7 +2,7 @@ package infrastructure
 
 import (
 	"database/sql"
-	"tds.go/internal/domain"
+	"tds.go/pkg/domain"
 )
 
 type PostgresUserRepository struct {

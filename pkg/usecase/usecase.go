@@ -1,6 +1,6 @@
 package usecase
 
-import "tds.go/internal/domain"
+import "tds.go/pkg/domain"
 
 type UserUseCase struct {
 	userRepo domain.UserRepository

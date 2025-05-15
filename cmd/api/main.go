@@ -6,12 +6,12 @@ import (
 	"github.com/gorilla/mux"
 
 	"tds.go/config"
-	"tds.go/internal/infrastructure"
-	"tds.go/internal/infrastructure/database"
-	"tds.go/internal/infrastructure/logger"
-	"tds.go/internal/infrastructure/middleware"
-	"tds.go/internal/presentation"
-	"tds.go/internal/usecase"
+	"tds.go/pkg/infrastructure"
+	"tds.go/pkg/infrastructure/database"
+	"tds.go/pkg/infrastructure/logger"
+	"tds.go/pkg/infrastructure/middleware"
+	"tds.go/pkg/presentation"
+	"tds.go/pkg/usecase"
 )
 
 func main() {
